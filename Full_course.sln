@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "007-chapter", "007-chapter", "{A3A27171-9ED8-4C4F-B140-1842192B5774}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-code", "007-chapter\dotnet-code\dotnet-code.csproj", "{D0B840E8-A3F0-48DC-85EB-398B3F464665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0B840E8-A3F0-48DC-85EB-398B3F464665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B840E8-A3F0-48DC-85EB-398B3F464665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B840E8-A3F0-48DC-85EB-398B3F464665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B840E8-A3F0-48DC-85EB-398B3F464665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0B840E8-A3F0-48DC-85EB-398B3F464665} = {A3A27171-9ED8-4C4F-B140-1842192B5774}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9515A8F-61D5-432D-9BB3-E6BE4E6BA6AF}
+	EndGlobalSection
+EndGlobal

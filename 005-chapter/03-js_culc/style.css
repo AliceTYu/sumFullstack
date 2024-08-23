@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.block_input{
+    display: flex;
+    flex-direction: row;
+}
+
+.block_text{
+    padding-right: 1rem;
+}

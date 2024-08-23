@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор чаевых</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Калькулятор чаевых</h1>
+        <div class="block_input">
+            <div class="block_text">Сумма счета:</div>
+            <input type="number" id="inp_summ">
+        </div>
+        <div class="block_input">
+            <div class="block_text">Процент чаевых:</div>
+            <input type="number" id="inp_tip">
+        </div>
+        <div class="block_input">
+            <div class="block_text">Количество человек:</div>
+            <input type="number" id="inp_person">
+        </div>
+        <button class="btn_culc">Расчитать</button>
+        <h2>Результаты</h2>
+        <div class="block_input">
+            <div class="block_text">Чаевые:</div>
+            <div class="block_out" id="out_tip"></div>
+        </div>
+        <div class="block_input">
+            <div class="block_text">Общая сумма:</div>
+            <div class="block_out" id="out_summ"></div>
+        </div>
+        <div class="block_input">
+            <div class="block_text">Сумма на человека:</div>
+            <div class="block_out" id="out_person"></div>
+        </div>
+    </div>
+</body>
+</html>
